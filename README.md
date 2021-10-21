@@ -1,51 +1,8 @@
 # MADS-Reviews
 University of Michigan, Ann Arbor, Master of Applied Data Science course reviews
 
-Winter 2021 Cohort
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alisongh/MADS/HEAD)
-<style>
-    #table-of-contents {
-      position: fixed;
-      right: 0;
-      top: 0;
-      background-color:#FFF;
-    }
-
-    #toc #full { display: none; } /* Hide the full TOC by default */
-
-    #toc:hover #full{
-      display: block; /* Show it on hover */
-    }
-</style>
-<div id="table of contents" role="doc-toc">
-    <div id="text-table-of-contents">
-        <ul>
-            <li>
-                <a href="#prologue">Prologue</a>   
-            </li>
-            <li>
-                <a href="#evaluation">Evaluation</a>
-            </li>
-            <li>
-                <a href="#mads-course-review">MADS Course Review</a>
-                <ul>
-                    <li><a href="#siads-501-being-a-data-scientist">SIADS 501 Being a Data Scientist</a></li>
-                    <li><a href="#siads-505-data-manipulation">SIADS 505 Data Manipulation</a></li>
-                    <li><a href="#siads-502-math-method-for-data-science">SIADS 502 Math Method for Data Science</a></li>
-                    <li><a href="#siads-522-information-visualization-i">SIADS 522 Information Visualization I</a></li>
-                    <li><a href="#siads-521-visual-exploration-data">SIADS 521 Visual Exploration Data</a></li>
-                    <li><a href="#siads-532-data-mining-i">SIADS 532 Data Mining I</a></li>
-                    <li><a href="#siads-622-information-visualizaiton-ii">SIADS 622 Information Visualizaiton II</a></li>
-                    <li><a href="#siads-511-sql-and-database">SIADS 511 SQL and Database</a></li>
-                    <li><a href="#siads-515-efficient-data-processing">SIADS 515 Efficient Data Processing</a></li>
-                    <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
-                    <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-</div>
+Winter 2021 Cohort. 
+If you have any question with assignments, please email me. liwenh@umich.edu
 
 ## Prologue
 
