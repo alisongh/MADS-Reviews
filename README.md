@@ -1,12 +1,57 @@
-# MADS-Reviews
-University of Michigan, Ann Arbor, Master of Applied Data Science course reviews
+# MADS
+Master of Applied Data Science by University of Michigan
 
-Winter 2021 Cohort. 
-If you have any question with assignments, please email me. liwenh@umich.edu
+Winter 2021 Cohort
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alisongh/MADS/HEAD)
+<style>
+    #table-of-contents {
+      position: fixed;
+      right: 0;
+      top: 0;
+      background-color:#FFF;
+    }
+
+    #toc #full { display: none; } /* Hide the full TOC by default */
+
+    #toc:hover #full{
+      display: block; /* Show it on hover */
+    }
+</style>
+<div id="table of contents" role="doc-toc">
+    <div id="text-table-of-contents">
+        <ul>
+            <li>
+                <a href="#prologue">Prologue</a>   
+            </li>
+            <li>
+                <a href="#evaluation">Evaluation</a>
+            </li>
+            <li>
+                <a href="#mads-course-review">MADS Course Review</a>
+                <ul>
+                    <li><a href="#siads-501-being-a-data-scientist">SIADS 501 Being a Data Scientist</a></li>
+                    <li><a href="#siads-505-data-manipulation">SIADS 505 Data Manipulation</a></li>
+                    <li><a href="#siads-502-math-method-for-data-science">SIADS 502 Math Method for Data Science</a></li>
+                    <li><a href="#siads-522-information-visualization-i">SIADS 522 Information Visualization I</a></li>
+                    <li><a href="#siads-521-visual-exploration-of-data">SIADS 521 Visual Exploration of Data</a></li>
+                    <li><a href="#siads-532-data-mining-i">SIADS 532 Data Mining I</a></li>
+                    <li><a href="#siads-622-information-visualization-ii">SIADS 622 Information Visualization II</a></li>
+                    <li><a href="#siads-511-sql-and-database">SIADS 511 SQL and Database</a></li>
+                    <li><a href="#siads-515-efficient-data-processing">SIADS 515 Efficient Data Processing</a></li>
+                    <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
+                    <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
+                    <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
+                    <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
 
 ## Prologue
 
-The MADS Program is designed for students from all over the world who have full-time/part-time jobs and can only take courses virtually by the University of Michigan, Ann Arbor, School of Information. The MADS course was designed and structured by the instructional designers, served by senior professors from the UM, and taught by other instructors. The course curriculum, videos, the choice of textbooks, and reading materials were created and provided by the instructional designers who developed the course. Other UM instructors teach the courses and hold office hours for students who are attending. The majority of the time, the instructors receive feedback from students and bring them to the department. Sometimes, the instructional designer does not have a chance to get feedback.
+The MADS Program is a **MOOC type** graduate program which is designed for students from all over the world who have full-time/part-time jobs and can only take courses virtually by the University of Michigan, Ann Arbor, School of Information. The MADS course was designed and structured by the instructional designers, served by senior professors from the UM, and taught by other instructors. The course curriculum, videos, the choice of textbooks, and reading materials were created and provided by the instructional designers who developed the course. Other UM instructors teach the courses and hold office hours for students who are attending. The majority of the time, the instructors receive feedback from students and bring them to the department. Sometimes, the instructional designer does not have a chance to get feedback.
 
 If you are a current MADS student, please join the [Official MADS Slack Group](https://umich-mads.slack.com/) (You need to use UMICH email to sign in). 
 
@@ -15,8 +60,8 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
 </h2>
 
 Full Score: 🌟🌟🌟🌟🌟
-### Overall Score of the program: 🌟🌟☆
-### Recommendation: 🌟🌟
+### Overall Score of the program: 🌟🌟
+### Recommendation:🌟☆
 **Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆**
 
 **Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆**
@@ -42,7 +87,7 @@ Full Score: 🌟🌟🌟🌟🌟
 * Light coding load (Python; NumPy)
 * Linear Algebra and Statistics
 * Score: ❌ **ZERO (A total disaster course, which I've ever taken, with a very shallow academic standard, lower than the one by universities ranking 100+, delivered by an irresponsible instructor)**
-* This is a **disordered** course structure with **many mistakes and errors** in lectures and materials. The instructor does not know what students' academic mathematical levels are. Since this is a non-math background data science program which means students have diverse math experiences/abilities. It is impossible to have only a one-month math course to satisfy all academic needs for this program. The lectures for profound math background students are too shallow, but students' limited math background is too tricky. Four assignments are not related to Python coding, and two writing assignments are confused without practical grade criteria or samples. The instructor, Dr. Erin Ware, reads PPTs word by word without any further explaination, examples or exercises, which is unbearable at all.
+* This is a **disordered** course structure with **many mistakes and errors** in lectures and materials. The instructor does not know what students' academic mathematical levels are. Since this is a non-math background data science program which means students have diverse math experiences/abilities. It is impossible to have only a one-month math course to satisfy all academic needs for this program. The lectures for profound math background students is too shallow, but for students with limited math background is too tricky. Four assignments are not related to Python coding, and two writing assignments are confused without practical grade criteria or samples. The instructor, Dr. Erin Ware, reads PPTs word by word without any further explaination, examples or exercises, which is unbearable at all.
 
 ### SIADS 522 Information Visualization I
 * Heavy workload
@@ -95,3 +140,15 @@ Full Score: 🌟🌟🌟🌟🌟
 * Medium coding load (Python; Scikit-learn; Pandas; Numpy)
 * Score: 🌟🌟
 * This course is the same course on Coursera, Applied Data Science with Python Specialization, which costs USD79/month and approx. 34 hours to complete. I'm satisfied with the structure of the course and assignments. However, I'm disappointed with how the school indiscriminately imitates the low-tuition specialization courses to the high-tuition graduate program. Again, comparing USD79/month and USD950/credit (one month, in-state) and USD1,267/credit (one month, out-of-state). I would not say I like how they loot their students' money without adding valuable information, knowledge, and skills. 
+
+### SIADS 642 Deep Learning
+* Very light workload
+* NO CODING !!
+* Score: ☆
+* This is a NO CODING and the ONLY deep learning course in MADS program. If you want to learn how to code a deep learning project in Python, please go away and self-study. The quality of the video and content is too much lower than the University of Mich in-person course. The TOTAL length of 642 videos is only 132 minutes which is even shorter than TWO in-person deep learning courses. Typically, the length of ONE in-person deep learning course is about 90 minutes. If you want to learn real things about deep learning, please check out [EECS 498 course](https://web.eecs.umich.edu/~justincj/teaching/eecs498/FA2020/) taught by Justin Johnson. He also taught Stanford University CS 231N course which is an awesome deep learning course. He uploads and shares all course recordings via [Google Drive](https://drive.google.com/drive/folders/1LXriM9h8WNJGErlYQXIrNNytAzVaHBjF) and you can watch them free with your UMICH account. AGAIN, the University of Michigan treats MADS students different from their in-person students and provides much better and higher qualified instructors, professors, and TAs to their in-person students. 
+
+### SIADS 523 Communicating Data Science Results 
+* Very light workload
+* NO CODING
+* Score: ☆
+* This is not a data science related course. The only valuable information provided by the instructor is the Gale Business Demographicsnow. This course introduces several methods and provides some templates of PowerPoint slides. Instead of data science communication, this is a "How to make a PowerPoint for the presentation" course. The only opportunity to communicate with "someone" is the **5-minute** presentation without showing off your face, which means the whole presentation only presents the slides and your voice. Moreover, you don't have an opportunity to speak or communicate with a real person. You just recorded the presentation and sent out the recording, which doesn't make any sense as a communication course. The only part of real communication is chatting with classmates and instructors via Slack. The top three communication skills are active listening, sharing feedback, and communication methods. None of them applied to this course. Since the presentation's audience is the instruction team, meaning they are knowledgeable about data science, you do not need to use different skills to adapt yourself to different circumstances. The result/feedback was provided two or three weeks later, so you do not get timely feedback from the audience. The only communication method is talking to your computer like a robot.
