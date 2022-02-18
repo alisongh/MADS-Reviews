@@ -4,7 +4,20 @@ Master of Applied Data Science by University of Michigan
 Winter 2021 Cohort
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/alisongh/MADS/HEAD)
+<style>
+    #table-of-contents {
+      position: fixed;
+      right: 0;
+      top: 0;
+      background-color:#FFF;
+    }
 
+    #toc #full { display: none; } /* Hide the full TOC by default */
+
+    #toc:hover #full{
+      display: block; /* Show it on hover */
+    }
+</style>
 <div id="table of contents" role="doc-toc">
     <div id="text-table-of-contents">
         <ul>
@@ -28,8 +41,11 @@ Winter 2021 Cohort
                     <li><a href="#siads-515-efficient-data-processing">SIADS 515 Efficient Data Processing</a></li>
                     <li><a href="#siads-516-big-data-scalable-data-processing">SIADS 516 Big Data Scalable Data Processing</a></li>
                     <li><a href="#siads-542-supervised-learning">SIADS 542 Supervised Learning</a></li>
+                    <li><a href="#siads-543-unsupervised-learning">SIADS 543 Unsupervised Learning</a></li>
+                    <li><a href="#siads-630-causal-inference">SIADS 630 Causal Inference</a></li>
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
+                    <li><a href="#siads-524-presenting-uncertainty"><SIADS 524 Presenting Uncertainty></a></li>
                 </ul>
             </li>
         </ul>
@@ -46,12 +62,19 @@ If you are a current MADS student, please join the [Official MADS Slack Group](h
     Evaluation
 </h2>
 
+<div class="warning" style='background-color:#384E77; color: #E6F9AF; border-left: solid #8BBEB2 4px; border-radius: 4px; padding:0.7em;'>
+<span>
+<p style='margin-top:1em; text-align:center'>
+<b>Evaluation of the Program</b></p>
+<p style='margin-left:1em; text-align:center'>
 Full Score: 🌟🌟🌟🌟🌟
-### Overall Score of the program: 🌟🌟
-### Recommendation:🌟☆
-**Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆**
-
-**Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆**
+<br><b>Overall Score of the program: 🌟🌟</b>
+<br><b>Recommendation:🌟☆</b>
+<br>Tuition: 🌟🌟🌟🌟🌟; Structure: 🌟☆; Completeness: 🌟☆
+<br>Difficulty: 🌟🌟🌟; Instructors: 🌟🌟🌟; TAs: 🌟🌟☆
+</p>
+</span>
+</div>
 
 ## MADS Course review:
 ### SIADS 501 Being a Data Scientist
@@ -128,6 +151,18 @@ Full Score: 🌟🌟🌟🌟🌟
 * Score: 🌟🌟
 * This course is the same course on Coursera, Applied Data Science with Python Specialization, which costs USD79/month and approx. 34 hours to complete. I'm satisfied with the structure of the course and assignments. However, I'm disappointed with how the school indiscriminately imitates the low-tuition specialization courses to the high-tuition graduate program. Again, comparing USD79/month and USD950/credit (one month, in-state) and USD1,267/credit (one month, out-of-state). I would not say I like how they loot their students' money without adding valuable information, knowledge, and skills. 
 
+### SIADS 543 Unsupervised Learning
+* Medium workload
+* Medium coding load (Python; Scikit-learn; Pandas; Numpy)
+* Score: 🌟🌟🌟
+* This is a decent unsupervised learning course. The assignments are not hard and there's not many students asked questions during the course. The instructor and TAs worked very well. They answered questions timely and held OHs responsibly. However, there's still a lot of information and materials in PCA and feature engineering areas could be taught. PCA is a core section of Machine Learning and there's no single course teaching it. 
+
+### SIADS 630 Causal Inference 
+* Light workload
+* Light coding load (Python; Numpy; Statsmodel)
+* Score: ☆
+* This course talks about Causal Inference which is very useful and interesting. However the course itself is absolutely not well prepared. The instructor never responses any questions, comments and posts directly on the Slack Channel and pushes all of them to TA and OH. The instructor created a form to collect questions. However, he/she only repeated the conception, like 1 plus 1 equals to 2, on the OH and doesn't answer any questions or clarify any concerns. Don't understand why he/she collects questions, but not answer them. The contents of the slides and video are useless, just copy and paste from the book Master Metrics.
+
 ### SIADS 642 Deep Learning
 * Very light workload
 * NO CODING !!
@@ -139,3 +174,9 @@ Full Score: 🌟🌟🌟🌟🌟
 * NO CODING
 * Score: ☆
 * This is not a data science related course. The only valuable information provided by the instructor is the Gale Business Demographicsnow. This course introduces several methods and provides some templates of PowerPoint slides. Instead of data science communication, this is a "How to make a PowerPoint for the presentation" course. The only opportunity to communicate with "someone" is the **5-minute** presentation without showing off your face, which means the whole presentation only presents the slides and your voice. Moreover, you don't have an opportunity to speak or communicate with a real person. You just recorded the presentation and sent out the recording, which doesn't make any sense as a communication course. The only part of real communication is chatting with classmates and instructors via Slack. The top three communication skills are active listening, sharing feedback, and communication methods. None of them applied to this course. Since the presentation's audience is the instruction team, meaning they are knowledgeable about data science, you do not need to use different skills to adapt yourself to different circumstances. The result/feedback was provided two or three weeks later, so you do not get timely feedback from the audience. The only communication method is talking to your computer like a robot.
+
+### SIADS 524 Presenting Uncertainty
+* Medium to heavy workload
+* Medium to heavy coding load (Python; Pandas; Altair)
+* Score: 🌟🌟
+* This is a course to review Altair library which is creating visulizations. The textbook, videos and assignments don't have much relationships. You don't need to watch videos and read textbook to finish assignments. All need is to find out 622 assingments and recall all painful experiences of using Altair. There should be a course teaching other methods and tools to create visualization instead of using Altair only.  
