@@ -45,7 +45,7 @@ Winter 2021 Cohort
                     <li><a href="#siads-630-causal-inference">SIADS 630 Causal Inference</a></li>
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
-                    <li><a href="#siads-524-presenting-uncertainty"><SIADS 524 Presenting Uncertainty></a></li>
+                    <li><a href="#siads-524-presenting-uncertainty">SIADS 524 Presenting Uncertainty</a></li>
                 </ul>
             </li>
         </ul>
