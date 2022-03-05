@@ -46,6 +46,7 @@ Winter 2021 Cohort
                     <li><a href="#siads-642-deep-learning">SIADS 642 Deep Learning</a></li>
                     <li><a href="#siads-523-communicating-data-science-results">SIADS 523 Communicating Data Science Results</a></li>
                     <li><a href="#siads-524-presenting-uncertainty">SIADS 524 Presenting Uncertainty</a></li>
+                    <li><a href="#siads-632-data-mining-ii">SIADS 632 Data Mining II</a></li>
                 </ul>
             </li>
         </ul>
@@ -180,3 +181,9 @@ Full Score: 🌟🌟🌟🌟🌟
 * Medium to heavy coding load (Python; Pandas; Altair)
 * Score: 🌟🌟
 * This is a course to review Altair library which is creating visulizations. The textbook, videos and assignments don't have much relationships. You don't need to watch videos and read textbook to finish assignments. All need is to find out 622 assingments and recall all painful experiences of using Altair. There should be a course teaching other methods and tools to create visualization instead of using Altair only.  
+
+### SIADS 632 Data Mining II
+* Heavy to very heavy workload
+* Heavy to very heavy coding laod (Python; Pandas; Python Class/Object)
+* Score: 🌟🌟🌟🌟
+* This is an extremely time-consuming course. Do not take this course with other courses. I rated it four stars because the auto grade is awful. Sometimes, I fought with auto grade instead of coding a real thing, and there's one time that my coding was entirely correct, but the auto grade gave a "Partial credit; passed some but not all of the tests" error. The instructor and TAs did not explain this situation reasonably and just adjusted grades. Additionally, they did not answer questions timely on the Slack course channel. You HAVE TO ask them privately. This is inconvenient and inefficient because I always check the course channel first and see if someone has already asked my questions. However, this course trained a lot of coding skills. 
