@@ -4,20 +4,6 @@
 <h1 id="mads">MADS</h1>
 <p>Master of Applied Data Science by University of Michigan</p>
 <p>Winter 2021 Cohort</p>
-<style>
-    #table-of-contents {
-      position: fixed;
-      right: 0;
-      top: 0;
-      background-color:#FFF;
-    }
-
-    #toc #full { display: none; } /* Hide the full TOC by default */
-
-    #toc:hover #full{
-      display: block; /* Show it on hover */
-    }
-</style>
 
 <div id="table of contents" role="doc-toc">
     <div id="text-table-of-contents">
